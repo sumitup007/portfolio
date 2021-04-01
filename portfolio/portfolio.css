@@ -1,0 +1,49 @@
+.portfolio{
+	padding:100px;
+	background-color: #01161E;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.port{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.portModStyling{
+	border: 2px solid #aec3b0;
+	background-color: #aec3b0;
+	margin: 5%;
+}
+
+.portModule{
+	width:150px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	opacity: 0;
+}
+
+
+.portModule img {
+	border:2px solid black;
+	border-radius:100%;
+	padding:15px;
+	width:150px;
+	margin:auto;
+}
+
+.portModStyling .caption{
+	background-color: #fff;
+	margin: auto;
+	width: 100%;
+}
+
+.portModule h5, .portModule p {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}

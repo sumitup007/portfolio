@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sumit R Kataruka</title>
+	<!-- THIS SITE IS CURRENTLY UNDER CONSTRUCTION -->
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	
+	<!-- <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+	<script type="text/javascript" src='./lib/jquery-3.5.1.min.js'></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+	<!--MY CODE-->
+	<link rel="stylesheet" type="text/css" href="./carousel/myCarousel.css">
+	<script type="text/javascript" src='./carousel/myCarousel.js'></script>
+
+	<link rel="stylesheet" type="text/css" href="./contact.css">
+	
+	<link rel="stylesheet" type="text/css" href="./portfolio/portfolio.css">
+	<script type="text/javascript" src='./portfolio/portfolio.js'></script>
+
+</head>
+<body>
+	<div id='header' class='header'>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+		  <a class="navbar-brand" href="#">Sumit Kataruka</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav ml-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Home</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">About</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#portfolio">Portfolio</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#contact">Contact</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</div>
+	<div id='container'>
+		<!--Carousel-->
+		<div id='introCarousel' class=''>
+			<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img src="./img/DSC04807.jpg" class="myImg" alt="...">
+			      <div class="carousel-caption d-none d-md-block">
+			        <h5>Hi,</h5>
+			        <p>Thank you for visiting!</p>
+			      </div>
+			      <div id='item1' class='banner'><span>Web Developer</span></div>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="./img/DSC01690.JPG" class="myImg" alt="...">
+			      <div class="carousel-caption d-none d-md-block">
+			        <h5>I can wear many hats</h5>
+			        <p>one by one</p>
+			      </div>
+			      <div id='item2' class='banner'><span>Designer</span></div>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="./img/DSC02517.jpg" class="myImg" alt="...">
+			      <div class="carousel-caption d-none d-md-block">
+			        <h5>Let me know if you have questions</h5>
+			        <p><button>Click Here</button></p>
+			      </div>
+			      <div id='item3' class='banner'><span>Front End Engineer</span></div>
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</div>
+		<!--End: Carousel-->
+		
+		<!--Portfolio-->
+		<div id='portfolio' class='portfolio'>
+			<div class='port row'>
+				<div class='portModule col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3'>
+					<div class='portModStyling row'>
+						<img  src="./img/weatherApp.png"/>
+						<div class='caption'>
+							<h5>Weather App</h5>
+				        	<p>Find the weather near you!</p>
+			        	</div>
+					</div>
+				</div>
+				<div class='portModule col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3'>
+					<div class='portModStyling row'>
+						<img  src="./img/tower-of-hanoi-python.gif"/>
+						<div class='caption'>
+							<h5>Tower of Hanoi</h5>
+			        		<p>Up for the challenge?</p>
+			        	</div>
+					</div>
+				</div>
+				<div class='portModule col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3'>
+					<div class='portModStyling row'>
+						<img  src="./img/construction.png"/>
+						<div class='caption'>
+							<h5>More</h5>
+				        	<p>Click here</p>
+				        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End: Portfolio-->
+		
+		<!--Contact-->
+		<div id='contact' class=''>
+			<div class='contact-box shadow row'>
+				<div class='left col-lg-5 col-md-12 row'>
+					<div class=' imgAndName col-lg-12 col-md-6 col-sm-12 col-12 row'>
+						<div class='contactImg col-lg-6'>
+							<img  src="./img/construction.png"/>
+						</div>
+						<span class='contactMyName col-lg-6'>Sumit Kataruka</span>
+					</div>
+					<div class='myContactInfo col-lg-12 col-md-6 col-sm-12 col-12 row'>
+						<div class='col-lg-12'>
+							<p>Email<span>sumitk6007@gmail.com</span></p>
+							<p>Phone<span>+1 (650)284-6007</span></p>
+						</div>
+						<div class='col-lg-12'>
+							<a href="https://www.linkedin.com/in/sumitkadotcom">LinkedIn</a>
+							<a href="https://github.com/sumitup007/">Github</a>
+						</div> 
+					</div>
+				</div>
+				<div class='right col-lg-7 col-md-12'>
+					<h2>Contact Me</h2>
+					<span>Have any Questions / Comments? Let me know below</span>
+					<input type="text" class='field' placeholder="Your Name">
+					<input type="email" class='field' placeholder="Your Email">
+
+					<textarea class='field mesg' placeholder="Message"></textarea>
+
+					<button class='submitContact' onclick="this.blur();">Send</button>
+
+				</div>
+			</div>
+		</div>
+		<!--End: Contact-->
+
+	</div>
+	<br>
+	<footer>
+		<div class='footer'><span>Copyright Sumit Kataruka &#169; 2020</span></div>
+	</footer>
+	<!-- 
+	Color Palette:
+		#01161E
+		#124559
+		#598392
+		#aec3b0
+		#eff6e0
+	 -->
+</body>
+</html>

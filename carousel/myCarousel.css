@@ -1,0 +1,60 @@
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+#container{
+	display:block;
+}
+
+.banner{
+	position: absolute;
+}
+
+#item1{
+	top:27%;
+	left:27%;
+}
+
+#item2{
+	top:27%;
+	left:36%;
+}
+
+#item3{
+	top:27%;
+	left:20%;
+}
+
+.banner span {
+	font-size:7vw;
+	color:white;
+}
+
+.carousel-item {
+  height:95vh;
+  overflow: hidden;
+}
+.myImg{
+	height: 1500px;
+	width: 2600px;
+	display: block;
+	margin: auto;
+}
+.carousel-inner{
+  /*width:100%;
+  max-height: 1200px !important;*/
+  height: auto;
+}
+
+.footer{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #01161E;
+    color:white;
+    height:50px;
+    
+}
